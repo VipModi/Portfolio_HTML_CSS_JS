@@ -30,11 +30,41 @@
             </div>
             <div class="menu_links">
                 <li><a href="#about" onclick="toggleMenu()">About</a></li>
-                    <li><a href="#experiance" onclick="toggleMenu()">Experiance</a></li>
-                    <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-                    <li><a href="#contacts" onclick="toggleMenu()">Contacts</a></li>
+                <li><a href="#experiance" onclick="toggleMenu()">Experiance</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contacts" onclick="toggleMenu()">Contacts</a></li>
             </div>
         </div>
     </nav>
+    <section id="profile">
+        <div id="profile_pic_container">
+        <img src="./assets/profile-pic.png" alt="My Profile Pic"/>
+        </div>
+        <div class= "selection_text">
+            <p class="selection_text_p1">Hello I'm</p>
+            <h1 class="title"> Vipul Modi</h1> 
+            <p class="selection_text_p2">Test Engineer</p>
+            <div class="btn_container">
+                <button class="btn btn_color_2" 
+                onclick="window.open('./assets/resume-example.pdf')">
+                    View Resume
+                </button>
+                <button class="btn btn_color_1" 
+                onclick="location.href='./#contacts'">
+                    Contat Me
+                </button>
+                <div id="social_container">
+                    <img src="./assets/linkedin.png" 
+                    alt="My linkedin Profile" 
+                    class="icon" 
+                    onclick="location.href='https://www.linkedin.com/in/vipulmodi/'">
+                    <img src="./assets/github.png" 
+                    alt="My github Page" 
+                    class="icon" 
+                    onclick="location.href='https://github.com/vipmodi'">
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
